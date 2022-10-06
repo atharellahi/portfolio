@@ -99,6 +99,7 @@ footer {
     #navigation {
         display: none;
     }
+
     #menu {
         display: block;
         font-size: 3rem;
@@ -149,7 +150,7 @@ nav a {
 nav a:hover {
     opacity: .3;
     transform: scale(1.1);
-    
+
 }
 
 *::selection {
@@ -166,8 +167,8 @@ footer div span {
 }
 
 footer a img:hover {
-     scale: 1.1;
-     opacity: .3;
+    scale: 1.1;
+    opacity: .3;
 }
 
 .navbind {
@@ -182,10 +183,10 @@ footer a img:hover {
 }
 
 @media (min-width:620px) {
-    .navbind{
+    .navbind {
         display: none;
     }
-    
+
 }
 
 #navclop {
@@ -213,10 +214,10 @@ div.hidden {
 }
 
 .projectitem {
-    height: 250px ;
+    height: 250px;
     width: 200px;
     margin: 2% 8%;
-    
+
     background-color: #808388;
     border-radius: 10%;
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .6);
@@ -263,5 +264,69 @@ div.hidden {
 }
 
 .active {
-text-decoration: underline;
+    text-decoration: underline;
+}
+
+#services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp9641891.png);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.serviceitem {
+    width: 50%;
+    height: 90%;
+    background-color: #27282b;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, .6);
+    transition: 0.25s ease-in;
+}
+
+.serviceitem:hover {
+    scale: 1.05;
+    box-shadow: 0px 15px 30px 15px rgba(0, 0, 0, .6);
+  
+}
+
+
+@media (max-width:1050px) {
+    .serviceitem {
+        width: 90%;
+    }
+}
+
+.srvcimgproj {
+    height: 70%;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_815430462_412039.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.srvctitle {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2.5em;
+}
+
+.srvcdescription {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.5em;
+    font-weight: 100;
 }
