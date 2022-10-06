@@ -1,0 +1,267 @@
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.display {
+    height: 100vh;
+
+}
+
+body {
+    background-color: #455065;
+}
+
+main {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    /* justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+div#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    min-height: 67px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    min-height: 67px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.homeimg {
+    width: 100%;
+    height: 100%;
+}
+
+.txtholder {
+    background-image: url(https://wallpapercave.com/wp/wp9641891.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 5%;
+    padding-right: 35%;
+    background-color: antiquewhite;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+@media (max-width:822px) {
+    .txtholder {
+        padding: 0%;
+        width: 100%;
+    }
+}
+
+#menu {
+    display: none;
+    border-radius: 20%;
+    padding: 0px;
+    transition: .25s;
+}
+
+#menu:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+@media (max-width:620px) {
+    #navigation {
+        display: none;
+    }
+    #menu {
+        display: block;
+        font-size: 3rem;
+    }
+}
+
+content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.imgholder {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100%;
+}
+
+.header-logo {
+    position: relative;
+    left: 4%;
+    height: 50%;
+    transition: .25s;
+}
+
+.header-logo:hover {
+    opacity: .3;
+
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
+}
+
+nav a:hover {
+    opacity: .3;
+    transform: scale(1.1);
+    
+}
+
+*::selection {
+    background-color: none;
+    color: rgba(255, 255, 255, .3);
+}
+
+footer div {
+    padding: 0px .5rem;
+}
+
+footer div span {
+    padding: 0px .5rem;
+}
+
+footer a img:hover {
+     scale: 1.1;
+     opacity: .3;
+}
+
+.navbind {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    padding: 10px 0px;
+}
+
+@media (min-width:620px) {
+    .navbind{
+        display: none;
+    }
+    
+}
+
+#navclop {
+    width: 100%;
+
+}
+
+div.hidden {
+    display: none;
+}
+
+
+#root .display main .projectlist {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(https://wallpapercave.com/wp/wp9641891.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.projectitem {
+    height: 250px ;
+    width: 200px;
+    margin: 2% 8%;
+    
+    background-color: #808388;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .6);
+    /* margin:5% 10%; */
+    transition: .25s;
+    cursor: pointer;
+}
+
+.projectitem:hover {
+    scale: 1.1;
+    box-shadow: 0px 7px 10px 7px rgba(0, 0, 0, .6);
+}
+
+
+.imgproj {
+    height: 60%;
+    overflow: hidden;
+}
+
+.imgproj img {
+    width: 200px;
+    height: fit-content;
+}
+
+.title {
+    height: 15%;
+    border-bottom-color: azure;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.active {
+text-decoration: underline;
+}
