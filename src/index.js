@@ -43,10 +43,10 @@ const App = () => {
     return (
         <div className='display'>
             <div className={`splash ${displaysplash}`}>
-                <img className='fade-in' src={logo}></img>
+                <img className='fade-in' src={logo} alt=''></img>
             </div>
             <header>
-                <img className='header-logo' src={logo}></img>
+                <img className='header-logo' src={logo} alt=''></img>
                 <nav id='navigation' ><Link to='/'>Home</Link> <Link to='/projects'>Projects</Link> <Link to='/services'>Services</Link> <Link to='/about'>About</Link></nav><div id='menu' onClick={onmenuclick}>&#9776;</div>
             </header>
             <div className={`navbind ${classValue}`}><nav id='navclop'><Link to='/'>Home</Link> <Link to='/projects'>Projects</Link> <Link to='/services'>Services</Link> <Link to='/about'>About</Link></nav></div>

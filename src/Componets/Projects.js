@@ -45,7 +45,7 @@ const renderedProjectList = ProjectList.map((item) => {
     <div className="projectitem">
       <a href={item.Link} target='_blank' rel="noreferrer">
       <div className="imgproj">
-        <img src={item.Imglink} ></img>
+        <img src={item.Imglink} alt=''></img>
       </div>
       <div className="title">
       {item.Name}
