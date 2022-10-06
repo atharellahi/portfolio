@@ -5,7 +5,7 @@ const Services = () => {
 
         <div id="services">
                 <div className="projectitem">
-                    <a href='https://www.instagram.com/koungbuilds' target='_blank'>
+                    <a href='https://www.instagram.com/koungbuilds' target='_blank' rel="noreferrer">
                         <div className="imgproj">
                             <img src='https://www.incimages.com/uploaded_files/image/1920x1080/getty_815430462_412039.jpg' alt="3dprinting"></img>
                         </div>

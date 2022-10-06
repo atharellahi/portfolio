@@ -59,7 +59,7 @@ const App = () => {
 
                 </Routes>
             </main>
-            <footer><div>Connect with me </div> <div><span><a href='https://www.instagram.com/atharellahi' target='_blank'><img width='30px' src={instagramlogo} alt='Instagram' ></img></a></span> <span> <a href='https://www.facebook.com/atharellahii' target='_blank'><img width='30px' src={facebooklogo} alt='Facebook'></img></a></span> <span> <a href='https://www.linkedin.com/in/atharellahi/' target='_blank'><img width='30px' src={linkedinlogo} alt='Linked In'></img></a></span></div></footer>
+            <footer><div>Connect with me </div> <div><span><a href='https://www.instagram.com/atharellahi' target='_blank' rel="noreferrer"><img width='30px' src={instagramlogo} alt='Instagram' ></img></a></span> <span> <a href='https://www.facebook.com/atharellahii' target='_blank' rel="noreferrer"><img width='30px' src={facebooklogo} alt='Facebook'></img></a></span> <span> <a href='https://www.linkedin.com/in/atharellahi/' target='_blank' rel="noreferrer"><img width='30px' src={linkedinlogo} alt='Linked In'></img></a></span></div></footer>
         </div>
 
     )
