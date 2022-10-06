@@ -7,7 +7,7 @@ const Services = () => {
                 <div className="projectitem">
                     <a href='https://www.instagram.com/koungbuilds' target='_blank'>
                         <div className="imgproj">
-                            <img src='https://www.incimages.com/uploaded_files/image/1920x1080/getty_815430462_412039.jpg' ></img>
+                            <img src='https://www.incimages.com/uploaded_files/image/1920x1080/getty_815430462_412039.jpg' alt="3dprinting"></img>
                         </div>
                         <div className="title">
                             3d prining
