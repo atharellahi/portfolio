@@ -5,7 +5,7 @@ const About = () => {
   return (<React.Fragment>
     <div id="about">
       <div id="ava">
-        <img id='avatar' src={avatar}></img>
+        <img id='avatar' src={avatar} alt=''></img>
       </div>
       <div id="detail">
 
