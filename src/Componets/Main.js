@@ -4,6 +4,9 @@ const Main = () => {
   return (<React.Fragment>
     <div id="main">
     <div className="txtholder">
+      <div id='contenheader'>
+        <span>Windows Powershell</span><button>&#128469;</button><button>&#128470;</button><button>&#128473;</button>
+      </div>
       <content>
     <h1>Athar Ellahi</h1>
 
