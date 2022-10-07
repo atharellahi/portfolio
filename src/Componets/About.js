@@ -13,7 +13,9 @@ const About = () => {
         A Gamer at heart<br></br>
         Born a Maker<br></br>
 
-        I'm Athar Ellahi , thanks for visiting my website
+        I'm Athar Ellahi , thanks for visiting my website<br></br><br></br><br></br>
+
+        “You can’t use up creativity. The more you use, the more you have”.  Maya Angelou
       </div>
     </div>
   </React.Fragment>
