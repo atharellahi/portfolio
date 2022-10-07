@@ -274,7 +274,7 @@ div.hidden {
     width: 200px;
     margin: 2% 8%;
 
-    background-color: #808388;
+    background-color: rgb(47, 48, 51);
     border-radius: 10%;
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .6);
     /* margin:5% 10%; */
@@ -417,7 +417,7 @@ div#about div#detail {
     text-align: center;
     width: 50%;
     height: 30%;
-    background-color: rgba(100, 111, 129,.9);
+    background-color: rgba(100, 111, 129, .9);
     border-radius: 1rem;
     transition: .25s;
 
