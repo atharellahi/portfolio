@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 import './Componets/Styles/Intro.css';
@@ -47,12 +47,12 @@ const App = () => {
             </div>
             <header>
                 <img className='header-logo' src={logo} alt=''></img>
-                <nav id='navigation' ><Link to='/'>Home</Link> <Link to='/projects'>Projects</Link> <Link to='/services'>Services</Link> <Link to='/about'>About</Link></nav><div id='menu' onClick={onmenuclick}>&#9776;</div>
+                <nav id='navigation' ><NavLink to='home'>Home</NavLink> <NavLink to='/projects'>Projects</NavLink> <NavLink to='/services'>Services</NavLink> <NavLink to='/about'>About</NavLink></nav><div id='menu' onClick={onmenuclick}>&#9776;</div>
             </header>
-            <div className={`navbind ${classValue}`}><nav id='navclop'><Link to='/'>Home</Link> <Link to='/projects'>Projects</Link> <Link to='/services'>Services</Link> <Link to='/about'>About</Link></nav></div>
+            <div className={`navbind ${classValue}`}><nav id='navclop'><NavLink to='home'>Home</NavLink> <NavLink to='/projects'>Projects</NavLink> <NavLink to='/services'>Services</NavLink> <NavLink to='/about'>About</NavLink></nav></div>
             <main>
                 <Routes>
-                    <Route path='/' element={<Main />} />
+                    <Route path='home' element={<Main />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/services' element={<Services />}></Route>
                     <Route path='/about' element={<About />}></Route>

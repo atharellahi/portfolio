@@ -14,7 +14,7 @@ const Main = () => {
 
 <p>Designing and developing responsive user interface with ability to work with or without team.
 Creating clean, maintainable and functional code is highest priority.
-Html / CSS / Bootstrap / Semantic-UI / JavaScript / jQuery / WordPress /
+Html / CSS / Bootstrap / Semantic-UI / JavaScript / WordPress /
 React.js / Redux & Material-UI...</p>
 </content>
     </div>
