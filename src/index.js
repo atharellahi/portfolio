@@ -52,6 +52,7 @@ const App = () => {
             <div className={`navbind ${classValue}`}><nav id='navclop'><NavLink to='home'>Home</NavLink> <NavLink to='/projects'>Projects</NavLink> <NavLink to='/services'>Services</NavLink> <NavLink to='/about'>About</NavLink></nav></div>
             <main>
                 <Routes>
+                    <Route index element={<Main />} />
                     <Route path='home' element={<Main />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/services' element={<Services />}></Route>
